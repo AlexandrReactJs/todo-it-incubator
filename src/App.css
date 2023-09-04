@@ -1,0 +1,9 @@
+.App{
+  display: flex;
+  flex-direction: row;
+  margin: 15px 15px;
+}
+
+.Todolist{
+  padding: 10px;
+}

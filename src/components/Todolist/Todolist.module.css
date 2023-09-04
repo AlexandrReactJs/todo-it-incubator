@@ -1,0 +1,164 @@
+.Todolist{
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    width: 18%;
+    margin-right: 20px;
+}
+
+
+
+.taskTitle{
+    margin-bottom: 14px;
+}
+
+/*-----------------------------------------------------------*/
+
+.newTask{
+    margin-bottom: 14px;
+}
+
+
+.newTaskMaker{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+.inputTitle{
+    outline: none;
+    border: unset;
+    border-bottom: 2px solid rgb(255, 228, 193);
+    height: 30px;
+    width: 100%;
+    font-size: 16px;
+    padding: 0 4px;
+}
+
+.newTaskMaker img{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 20%;
+    left:92%;
+    transition: all 0.2s linear;
+}
+
+
+.newTaskMaker img:hover{
+    opacity: 0.3;
+}
+
+
+.error{
+    border: unset;
+    outline: none;
+    height: 30px;
+    border-bottom: 2px solid red
+}
+
+.errorMessage{
+    color: red;
+}
+
+
+
+/*------------------------------------------------------------*/
+
+.tasks{
+    margin-bottom: 14px;
+}
+
+.tasksList{
+    list-style: none;
+    margin-left: 10px;
+    min-height: 170px;
+}
+
+.task{
+    display: flex;
+    flex-direction: row;
+  
+    padding: 5px 0;
+}
+
+.taskCheckbox{
+  margin-right: 10px;
+}
+
+.taskTitle{
+    margin-right: 5px;
+   
+}
+
+.taskTitle span{
+    font-size: 16px;
+}
+
+
+.taskCancel img{
+    width: 18px;
+    height: 18px;
+}
+
+.taskCancel:hover{
+    cursor: pointer;
+}
+
+.isDone{
+    opacity: 0.5;
+}
+
+/*------------------------------------------*/
+
+
+
+
+
+
+
+.filterButton{
+    padding: 8px 14px;
+    margin-right: 10px;
+    background-color: rgb(214, 175, 124);
+    border: unset;
+    border-radius: 20px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 16px;
+    transition: all 0.2s linear;
+}
+
+.filterButton:hover{
+    padding: 8px 14px;
+    margin-right: 10px;
+    background-color: rgb(255, 255, 255);
+    border: unset;
+    border-radius: 20px;
+    color: black;
+    font-weight: 600;
+    font-size: 16px;
+    border: 1px solid black;
+}
+
+.activeFilter{
+    padding: 8px 14px;
+    margin-right: 10px;
+    background-color: rgb(214, 175, 124);
+    border: unset;
+    border-radius: 20px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 16px;
+    border: 1px solid black;
+}
+
+
+
+
+
+
+/* Rectangle 8 */
+

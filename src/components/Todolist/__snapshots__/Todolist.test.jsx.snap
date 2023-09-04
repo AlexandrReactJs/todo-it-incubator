@@ -1,0 +1,352 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Todolist component TodoLis snapshot 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="Todolist"
+      >
+        <div
+          class="taskTitle"
+        >
+          <h3 />
+        </div>
+        <div
+          class="newTask"
+        >
+          <div
+            class="newTaskMaker"
+          >
+            <input
+              class="inputTitle"
+              placeholder="Enter title"
+              type="text"
+              value=""
+            />
+            <img
+              alt="add task"
+              src="add.png"
+            />
+          </div>
+        </div>
+        <div
+          class="tasks"
+        >
+          <ul
+            class="tasksList"
+          >
+            <div
+              class="isDone"
+            >
+              <li
+                class="task"
+              >
+                <div
+                  class="taskCheckbox"
+                >
+                  <input
+                    checked=""
+                    type="checkbox"
+                  />
+                </div>
+                <div
+                  class="taskTitle"
+                >
+                  <span>
+                    React
+                  </span>
+                </div>
+                <div
+                  class="taskCancel"
+                >
+                  <img
+                    alt="cancel task"
+                    src="cancel.png"
+                  />
+                </div>
+              </li>
+            </div>
+            <div
+              class="isDone"
+            >
+              <li
+                class="task"
+              >
+                <div
+                  class="taskCheckbox"
+                >
+                  <input
+                    checked=""
+                    type="checkbox"
+                  />
+                </div>
+                <div
+                  class="taskTitle"
+                >
+                  <span>
+                    JS
+                  </span>
+                </div>
+                <div
+                  class="taskCancel"
+                >
+                  <img
+                    alt="cancel task"
+                    src="cancel.png"
+                  />
+                </div>
+              </li>
+            </div>
+            <div
+              class=""
+            >
+              <li
+                class="task"
+              >
+                <div
+                  class="taskCheckbox"
+                >
+                  <input
+                    type="checkbox"
+                  />
+                </div>
+                <div
+                  class="taskTitle"
+                >
+                  <span>
+                    CSS
+                  </span>
+                </div>
+                <div
+                  class="taskCancel"
+                >
+                  <img
+                    alt="cancel task"
+                    src="cancel.png"
+                  />
+                </div>
+              </li>
+            </div>
+          </ul>
+        </div>
+        <div>
+          <button
+            class="filterButton"
+          >
+            All
+          </button>
+          <button
+            class="filterButton"
+          >
+            Active
+          </button>
+          <button
+            class="filterButton"
+          >
+            Completed
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="Todolist"
+    >
+      <div
+        class="taskTitle"
+      >
+        <h3 />
+      </div>
+      <div
+        class="newTask"
+      >
+        <div
+          class="newTaskMaker"
+        >
+          <input
+            class="inputTitle"
+            placeholder="Enter title"
+            type="text"
+            value=""
+          />
+          <img
+            alt="add task"
+            src="add.png"
+          />
+        </div>
+      </div>
+      <div
+        class="tasks"
+      >
+        <ul
+          class="tasksList"
+        >
+          <div
+            class="isDone"
+          >
+            <li
+              class="task"
+            >
+              <div
+                class="taskCheckbox"
+              >
+                <input
+                  checked=""
+                  type="checkbox"
+                />
+              </div>
+              <div
+                class="taskTitle"
+              >
+                <span>
+                  React
+                </span>
+              </div>
+              <div
+                class="taskCancel"
+              >
+                <img
+                  alt="cancel task"
+                  src="cancel.png"
+                />
+              </div>
+            </li>
+          </div>
+          <div
+            class="isDone"
+          >
+            <li
+              class="task"
+            >
+              <div
+                class="taskCheckbox"
+              >
+                <input
+                  checked=""
+                  type="checkbox"
+                />
+              </div>
+              <div
+                class="taskTitle"
+              >
+                <span>
+                  JS
+                </span>
+              </div>
+              <div
+                class="taskCancel"
+              >
+                <img
+                  alt="cancel task"
+                  src="cancel.png"
+                />
+              </div>
+            </li>
+          </div>
+          <div
+            class=""
+          >
+            <li
+              class="task"
+            >
+              <div
+                class="taskCheckbox"
+              >
+                <input
+                  type="checkbox"
+                />
+              </div>
+              <div
+                class="taskTitle"
+              >
+                <span>
+                  CSS
+                </span>
+              </div>
+              <div
+                class="taskCancel"
+              >
+                <img
+                  alt="cancel task"
+                  src="cancel.png"
+                />
+              </div>
+            </li>
+          </div>
+        </ul>
+      </div>
+      <div>
+        <button
+          class="filterButton"
+        >
+          All
+        </button>
+        <button
+          class="filterButton"
+        >
+          Active
+        </button>
+        <button
+          class="filterButton"
+        >
+          Completed
+        </button>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
